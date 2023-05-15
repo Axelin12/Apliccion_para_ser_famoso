@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <title>Mi Aplicación de Selfies</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link href="Style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <h1>Aplicación de voz para tomar selfies
+<div class="row mt-5">
+<div class="">
+<a href=""id="link"download="AN.png"></a><h1><img src="selfie.jpeg" id="logo_img">selfie de voz</h1>
+</div>
+
+
+</div>
+        </h1>
+        <hr>
+        <h4 style="color:red;">Haz clic en permitir cuando aparezca la ventana emergente, después de dar una orden de voz.</h4>
+        
+        <div class="form-group">
+            <button class="btn float-left mx-2"onclick="start()"><img src="Microfono andante.jpg" id="microfono" width="60"height="60"></button>
+            <p>Haz click en el microfono para empezar aventuras</p>
+          
+            
+            <label>Tu salida de voz: </label>
+<textarea class="form-control" id="textbox" readonly="true" >Di whisky</textarea>
+        </div>
+
+        <div class="col-md-6 my-2">
+<div class="">
+    <label>Tu cámara: </label>
+    <div id="camera"></div>
+</div>
+        </div>
+    
+
+        <br>
+        <div class="col-md-6 my-2">
+            <div class="">
+                <label>Tu selfie aparecera aqui: </label>
+                <div id="selfie"></div>
+            </div>
+                    </div>
+        
+
+    </center>
+    </div>
+    <script src="Main.js"></script>
+</body>
+</html>
